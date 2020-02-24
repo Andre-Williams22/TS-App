@@ -103,8 +103,9 @@ def analyze_url():
         final_time = end - start 
     return render_template('index.html', final_summary=final_summary, final_time=final_time,final_reading_time=final_readingtime, summary_reading_time=summary_reading_time)
 
-
-
+@app.route('/about', methods=['GET','POST'])
+def about():
+    return render_template('index.html')
 
 
 
