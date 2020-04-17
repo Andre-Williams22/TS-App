@@ -1,7 +1,3 @@
-add_subdirectory(Eigen)
-add_subdirectory(doc EXCLUDE_FROM_ALL)
-if(EIGEN_LEAVE_TEST_IN_ALL_TARGET)
-  add_subdirectory(test) # can't do EXCLUDE_FROM_ALL here, breaks CTest
-else()
-  add_subdirectory(test EXCLUDE_FROM_ALL)
-endif()
+version https://git-lfs.github.com/spec/v1
+oid sha256:73b5a7bcc57de1cf5f37483c75c5409a8303074eb61b9177ce5f895bdef10bfd
+size 227
