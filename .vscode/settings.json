@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "env/bin/python3"
+    "python.pythonPath": "/Users/andre22/Documents/Dev/Intensive_projects/Text-Summaryzer/env/bin/python3",
+    "git.ignoreLimitWarning": true
 }
